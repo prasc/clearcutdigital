@@ -1,12 +1,39 @@
 //----------------------------- Variables
 
+$consistent-gap: 1.5rem;
 
 //----------------------------- General
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
 
 
 //----------------------------- Text
 
 //----------------------------- Nav
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 15rem;
+    }
+    nav ul {
+        display: flex;
+    }
+}
 
 //----------------------------- Header
 
