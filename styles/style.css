@@ -8,27 +8,27 @@ a {
 }
 
 .wrapper {
-  max-width: 1200px;
   width: 95%;
   margin: 0 auto;
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Cantarell-Regular", sans-serif;
   line-height: 1.7rem;
   font-size: 1.2rem;
   margin: 0 auto;
 }
 
-h1 {
+h1, h2 {
+  font-family: "SpartanMB-Regular", sans-serif;
+}
+
+a {
   color: #854a9e;
 }
 
-h2 {
-  color: #e31e25;
-}
-
 .top-nav {
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,11 +59,12 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 1.25rem;
 }
 
 header {
   text-align: center;
-  height: 500px;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,15 +75,50 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+header h1 {
+  color: #854a9e;
+  font-size: 5rem;
+  line-height-step: 1.3em;
+  letter-spacing: 1px;
+}
+
+header h2 {
+  color: #e31e25;
+  font-size: 1.25rem;
 }
 
 /* Helvetica */
 @font-face {
   font-family: "Helvetica";
-  font-style: normal;
   src: url("../assets/fonts/Helvetica.ttf");
   /* IE9 Compat Modes */
-  src: local("Helvetica"), local("Helvetica"), url("../assets/fonts/Helvetica.ttf") format("embedded-opentype");
+  src: local("Helvetica"), local("Helvetica"), url("../assets/fonts/Helvetica.ttf");
+}
+
+/* Cantarell-Bold */
+@font-face {
+  font-family: "Cantarell-Bold";
+  src: url("../assets/fonts/Cantarell-Bold.ttf");
+  /* IE9 Compat Modes */
+  src: local("Helvetica"), local("Cantarell-Bold"), url("../assets/fonts/Cantarell-Bold.ttf");
+}
+
+/* Cantarell-Regular */
+@font-face {
+  font-family: "Cantarell-Regular";
+  src: url("../assets/fonts/Cantarell-Regular.ttf");
+  /* IE9 Compat Modes */
+  src: local("Helvetica"), local("Cantarell-Regular"), url("../assets/fonts/Cantarell-Regular.ttf");
+}
+
+/* SpartanMB-Regular */
+@font-face {
+  font-family: "SpartanMB-Regular";
+  src: url("../assets/fonts/SpartanMB-Regular.otf");
+  /* IE9 Compat Modes */
+  src: local("Helvetica"), local("SpartanMB-Regular"), url("../assets/fonts/SpartanMB-Regular.otf");
 }
 /*# sourceMappingURL=style.css.map */
