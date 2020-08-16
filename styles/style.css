@@ -1,4 +1,5 @@
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -24,7 +25,11 @@ a {
           justify-content: space-between;
 }
 
-.top-nav img {
+.top-nav div {
+  width: 20%;
+}
+
+.top-nav div img {
   width: 15rem;
 }
 
