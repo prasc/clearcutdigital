@@ -1,6 +1,8 @@
 //----------------------------- Variables
 
 $consistent-gap: 1.5rem;
+$purple: #854a9e;
+$red: #e31e25;
 
 //----------------------------- General
 
@@ -21,6 +23,21 @@ a {
 
 //----------------------------- Text
 
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: $purple;
+}
+
+h2 {
+  color: $red;
+}
+
 //----------------------------- Nav
 
 .top-nav {
@@ -33,15 +50,40 @@ a {
       width: 15rem;
     }
   }
+  nav {
+    width: 50%;
+  }
   nav ul {
     display: flex;
+    justify-content: space-between;
   }
 }
 
 //----------------------------- Header
 
+header {
+  text-align: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
 //----------------------------- Contact
 
 //----------------------------- Footer
+
+//----------------------------- Fonts
+
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  src: url("../assets/fonts/Helvetica.ttf"); /* IE9 Compat Modes */
+  src: local("Helvetica"), local("Helvetica"),
+    url("../assets/fonts/Helvetica.ttf")
+      format("embedded-opentype"),
+}
 
 //----------------------------- Media queries

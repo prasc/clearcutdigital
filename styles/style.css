@@ -13,6 +13,21 @@ a {
   margin: 0 auto;
 }
 
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #854a9e;
+}
+
+h2 {
+  color: #e31e25;
+}
+
 .top-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,9 +48,41 @@ a {
   width: 15rem;
 }
 
+.top-nav nav {
+  width: 50%;
+}
+
 .top-nav nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  text-align: center;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  src: url("../assets/fonts/Helvetica.ttf");
+  /* IE9 Compat Modes */
+  src: local("Helvetica"), local("Helvetica"), url("../assets/fonts/Helvetica.ttf") format("embedded-opentype");
 }
 /*# sourceMappingURL=style.css.map */
