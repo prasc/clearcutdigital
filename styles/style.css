@@ -39,6 +39,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: center;
 }
 
 .top-nav div {
@@ -60,6 +61,9 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 1.25rem;
 }
 
@@ -70,7 +74,7 @@ a {
   letter-spacing: 0.1rem;
   display: inline-block;
   position: relative;
-  padding-left: 2rem;
+  margin-left: 2rem;
 }
 
 .top-nav nav ul a:after {
