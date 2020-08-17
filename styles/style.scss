@@ -100,7 +100,7 @@ header {
 @font-face {
   font-family: "Cantarell-Bold";
   src: url("../assets/fonts/Cantarell-Bold.ttf"); /* IE9 Compat Modes */
-  src: local("Helvetica"), local("Cantarell-Bold"),
+  src: local("Cantarell-Bold"), local("Cantarell-Bold"),
     url("../assets/fonts/Cantarell-Bold.ttf")
 }
 
@@ -108,16 +108,16 @@ header {
 @font-face {
   font-family: "Cantarell-Regular";
   src: url("../assets/fonts/Cantarell-Regular.ttf"); /* IE9 Compat Modes */
-  src: local("Helvetica"), local("Cantarell-Regular"),
+  src: local("Cantarell-Regular"), local("Cantarell-Regular"),
     url("../assets/fonts/Cantarell-Regular.ttf")
 }
 
 /* SpartanMB-Regular */
 @font-face {
   font-family: "SpartanMB-Regular";
-  src: url("../assets/fonts/SpartanMB-Regular.otf"); /* IE9 Compat Modes */
-  src: local("Helvetica"), local("SpartanMB-Regular"),
-    url("../assets/fonts/SpartanMB-Regular.otf")
+  src: url("../assets/fonts/SpartanMB-Regular.ttf"); /* IE9 Compat Modes */
+  src: local("SpartanMB-Regular"), local("SpartanMB-Regular"),
+    url("../assets/fonts/SpartanMB-Regular.ttf")
 }
 
 //----------------------------- Media queries

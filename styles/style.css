@@ -103,7 +103,7 @@ header h2 {
   font-family: "Cantarell-Bold";
   src: url("../assets/fonts/Cantarell-Bold.ttf");
   /* IE9 Compat Modes */
-  src: local("Helvetica"), local("Cantarell-Bold"), url("../assets/fonts/Cantarell-Bold.ttf");
+  src: local("Cantarell-Bold"), local("Cantarell-Bold"), url("../assets/fonts/Cantarell-Bold.ttf");
 }
 
 /* Cantarell-Regular */
@@ -111,14 +111,14 @@ header h2 {
   font-family: "Cantarell-Regular";
   src: url("../assets/fonts/Cantarell-Regular.ttf");
   /* IE9 Compat Modes */
-  src: local("Helvetica"), local("Cantarell-Regular"), url("../assets/fonts/Cantarell-Regular.ttf");
+  src: local("Cantarell-Regular"), local("Cantarell-Regular"), url("../assets/fonts/Cantarell-Regular.ttf");
 }
 
 /* SpartanMB-Regular */
 @font-face {
   font-family: "SpartanMB-Regular";
-  src: url("../assets/fonts/SpartanMB-Regular.otf");
+  src: url("../assets/fonts/SpartanMB-Regular.ttf");
   /* IE9 Compat Modes */
-  src: local("Helvetica"), local("SpartanMB-Regular"), url("../assets/fonts/SpartanMB-Regular.otf");
+  src: local("SpartanMB-Regular"), local("SpartanMB-Regular"), url("../assets/fonts/SpartanMB-Regular.ttf");
 }
 /*# sourceMappingURL=style.css.map */
