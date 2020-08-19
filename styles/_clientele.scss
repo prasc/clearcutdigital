@@ -1,0 +1,28 @@
+//----------------------------- Clientele
+
+.clientele {
+  display: flex;
+  margin: $consistent-gap * 3 auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  .underline {
+    border-bottom: 4px solid black;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  div:first-of-type {
+    width: 40%;
+    min-width: 650px;
+    margin-right: $consistent-gap;
+    p {
+      font-size: 1.5rem;
+      width: 100%;
+      line-height: 2rem;
+    }
+  }
+  img {
+    min-width: 450px;
+  }
+}

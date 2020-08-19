@@ -1,0 +1,28 @@
+//----------------------------- Process
+
+.process {
+  background: $purple;
+  color: white;
+  padding: $consistent-gap;
+  text-align: center;
+  .underline {
+    border-bottom: 4px solid white;
+  }
+  h2 {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 150px;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      width: 300px;
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+//----------------------------- Text
+
+body {
+  font-family: "VisbyRoundCF-Regular", sans-serif;
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "VisbyRoundCF-Bold", sans-serif;
+}
+
+//----------------------------- Fonts
+
+/* Helvetica */
+@font-face {
+  font-family: "Helvetica";
+  src: url("../assets/fonts/Helvetica.ttf"); /* IE9 Compat Modes */
+  src: local("Helvetica"), local("Helvetica"),
+    url("../assets/fonts/Helvetica.ttf");
+}
+
+/* Cantarell-Bold */
+@font-face {
+  font-family: "Cantarell-Bold";
+  src: url("../assets/fonts/Cantarell-Bold.ttf"); /* IE9 Compat Modes */
+  src: local("Cantarell-Bold"), local("Cantarell-Bold"),
+    url("../assets/fonts/Cantarell-Bold.ttf");
+}
+
+/* Cantarell-Regular */
+@font-face {
+  font-family: "Cantarell-Regular";
+  src: url("../assets/fonts/Cantarell-Regular.ttf"); /* IE9 Compat Modes */
+  src: local("Cantarell-Regular"), local("Cantarell-Regular"),
+    url("../assets/fonts/Cantarell-Regular.ttf");
+}
+
+/* SpartanMB-Regular */
+@font-face {
+  font-family: "SpartanMB-Regular";
+  src: url("../assets/fonts/SpartanMB-Regular.ttf"); /* IE9 Compat Modes */
+  src: local("SpartanMB-Regular"), local("SpartanMB-Regular"),
+    url("../assets/fonts/SpartanMB-Regular.ttf");
+}
+
+/* VisbyRoundCF-Bold */
+@font-face {
+  font-family: "VisbyRoundCF-Bold";
+  src: url("../assets/fonts/VisbyRoundCF-Bold.otf"); /* IE9 Compat Modes */
+  src: local("VisbyRoundCF-Bold"), local("VisbyRoundCF-Bold"),
+    url("../assets/fonts/VisbyRoundCF-Bold.otf");
+}
+
+/* VisbyRoundCF */
+@font-face {
+  font-family: "VisbyRoundCF-Regular";
+  src: url("../assets/fonts/VisbyRoundCF-Regular.otf"); /* IE9 Compat Modes */
+  src: local("VisbyRoundCF-Regular"), local("VisbyRoundCF-Bold"),
+    url("../assets/fonts/VisbyRoundCF-Regular.otf");
+}

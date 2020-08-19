@@ -1,0 +1,48 @@
+//----------------------------- Nav
+
+.top-nav {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  div {
+    width: 20%;
+    img {
+      width: 15rem;
+    }
+  }
+  nav {
+    width: 50%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    a {
+      color: $purple;
+      text-decoration: none;
+      letter-spacing: 0.1rem;
+      display: inline-block;
+      position: relative;
+      margin-left: 2rem;
+    }
+    a:after {
+      background: none repeat scroll 0 0 transparent;
+      bottom: 0;
+      content: "";
+      display: block;
+      height: 2px;
+      left: 50%;
+      position: absolute;
+      background: $red;
+      transition: width 0.3s ease 0s, left 0.3s ease 0s;
+      width: 0;
+    }
+    a:hover:after {
+      width: 100%;
+      left: 0;
+    }
+  }
+}
