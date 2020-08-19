@@ -24,6 +24,15 @@ a {
   margin: 0 auto;
 }
 
+.wrapperslim {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;;
+}
+
+img {
+  width: 100%;
+}
 //----------------------------- Text
 
 body {
@@ -231,9 +240,53 @@ header {
 .services {
   background: $red;
   color: white;
+  padding: $consistent-gap;
+  text-align: center;
+  h2 {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 150px;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      width: 300px;
+    }
+  }
+}
+
+//----------------------------- Clientele
+
+.clientele {
+  display: flex;
+  margin: $consistent-gap*3 auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  max-width: 1200px;
+  div:first-of-type {
+    width: 40%;
+    min-width: 650px;
+    margin-right: $consistent-gap;
+    p {
+      font-size: 1.5rem;
+      width: 100%;
+      line-height: 2rem;
+    }
+  }
+  img {
+    min-width: 450px;;
+  }
+
 }
 
 //----------------------------- Contact
+
 
 //----------------------------- Footer
 
