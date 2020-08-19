@@ -78,7 +78,6 @@ a {
 
 .top-nav nav ul a {
   color: #854a9e;
-  text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.1rem;
   display: inline-block;
@@ -302,6 +301,7 @@ header h2 {
 
 .services ul p {
   width: 300px;
+  font-size: 1.5rem;
 }
 
 .clientele {
@@ -316,7 +316,10 @@ header h2 {
       -ms-flex-align: center;
           align-items: center;
   width: 60%;
-  max-width: 1200px;
+}
+
+.clientele h2 {
+  font-size: 2.5rem;
 }
 
 .clientele div:first-of-type {
@@ -333,6 +336,40 @@ header h2 {
 
 .clientele img {
   min-width: 450px;
+}
+
+.process {
+  background: #854a9e;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.process h2 {
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.process ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.process ul img {
+  width: 150px;
+  margin-bottom: 1.5rem;
+}
+
+.process ul p {
+  width: 300px;
+  font-size: 1.5rem;
 }
 
 /* Helvetica */

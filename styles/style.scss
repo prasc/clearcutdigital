@@ -27,7 +27,7 @@ a {
 .wrapperslim {
   width: 70%;
   margin: 0 auto;
-  max-width: 1200px;;
+  max-width: 1200px;
 }
 
 img {
@@ -74,7 +74,6 @@ a {
     font-size: 1.25rem;
     a {
       color: $purple;
-      text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 0.1rem;
       display: inline-block;
@@ -256,6 +255,7 @@ header {
     }
     p {
       width: 300px;
+      font-size: 1.5rem;
     }
   }
 }
@@ -264,11 +264,13 @@ header {
 
 .clientele {
   display: flex;
-  margin: $consistent-gap*3 auto;
+  margin: $consistent-gap * 3 auto;
   justify-content: space-between;
   align-items: center;
   width: 60%;
-  max-width: 1200px;
+  h2 {
+    font-size: 2.5rem;
+  }
   div:first-of-type {
     width: 40%;
     min-width: 650px;
@@ -280,13 +282,37 @@ header {
     }
   }
   img {
-    min-width: 450px;;
+    min-width: 450px;
   }
+}
 
+//----------------------------- Process
+
+.process {
+  background: $purple;
+  color: white;
+  padding: $consistent-gap;
+  text-align: center;
+  h2 {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 150px;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      width: 300px;
+      font-size: 1.5rem;
+    }
+  }
 }
 
 //----------------------------- Contact
-
 
 //----------------------------- Footer
 
