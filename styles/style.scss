@@ -33,6 +33,7 @@ a {
 img {
   width: 100%;
 }
+
 //----------------------------- Text
 
 body {
@@ -241,6 +242,9 @@ header {
   color: white;
   padding: $consistent-gap;
   text-align: center;
+  .underline {
+    border-bottom: 4px solid white;
+  }
   h2 {
     text-align: left;
     font-size: 2.5rem;
@@ -268,6 +272,9 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 60%;
+  .underline {
+    border-bottom: 4px solid black;
+  }
   h2 {
     font-size: 2.5rem;
   }
@@ -293,6 +300,9 @@ header {
   color: white;
   padding: $consistent-gap;
   text-align: center;
+  .underline {
+    border-bottom: 4px solid white;
+  }
   h2 {
     text-align: left;
     font-size: 2.5rem;
