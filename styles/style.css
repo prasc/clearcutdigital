@@ -10,6 +10,7 @@ a {
 .wrapper {
   width: 95%;
   margin: 0 auto;
+  max-width: 1500px;
 }
 
 .wrapperslim {
@@ -60,7 +61,7 @@ a {
 }
 
 .top-nav nav {
-  width: 70%;
+  width: 40%;
 }
 
 .top-nav nav ul {
@@ -147,7 +148,7 @@ header h2 {
 .box div:nth-child(1) {
   width: 10px;
   height: 10px;
-  top: 12%;
+  top: 20%;
   left: 42%;
   -webkit-animation: animate 10s linear infinite;
           animation: animate 10s linear infinite;
@@ -167,17 +168,17 @@ header h2 {
 .box div:nth-child(3) {
   width: 100px;
   height: 100px;
-  top: 17%;
+  top: 25%;
   left: 6%;
   -webkit-animation: animate 9s linear infinite;
           animation: animate 9s linear infinite;
-  border: 2px solid #9f1419;
+  border: 2px solid #b385c6;
 }
 
 .box div:nth-child(4) {
   width: 80px;
   height: 80px;
-  top: 20%;
+  top: 27%;
   left: 60%;
   -webkit-animation: animate 10s linear infinite;
           animation: animate 10s linear infinite;
@@ -231,17 +232,7 @@ header h2 {
   left: 25%;
   -webkit-animation: animate 9s linear infinite;
           animation: animate 9s linear infinite;
-  border: 2px solid #9f1419;
-}
-
-.box div:nth-child(10) {
-  width: 10px;
-  height: 10px;
-  top: 20%;
-  left: 80%;
-  -webkit-animation: animate 12s linear infinite;
-          animation: animate 12s linear infinite;
-  border: 2px solid #66397a;
+  border: 2px solid #b385c6;
 }
 
 @-webkit-keyframes animate {

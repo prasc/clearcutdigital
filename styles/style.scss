@@ -22,6 +22,7 @@ a {
 .wrapper {
   width: 95%;
   margin: 0 auto;
+  max-width: 1500px;
 }
 
 .wrapperslim {
@@ -66,7 +67,7 @@ a {
     }
   }
   nav {
-    width: 70%;
+    width: 40%;
   }
   nav ul {
     display: flex;
@@ -137,7 +138,7 @@ header {
 .box div:nth-child(1) {
   width: 10px;
   height: 10px;
-  top: 12%;
+  top: 20%;
   left: 42%;
   animation: animate 10s linear infinite;
   border: 2px solid rgba(241, 142, 145, 1);
@@ -155,16 +156,16 @@ header {
 .box div:nth-child(3) {
   width: 100px;
   height: 100px;
-  top: 17%;
+  top: 25%;
   left: 6%;
   animation: animate 9s linear infinite;
-  border: 2px solid rgba(159, 20, 25, 1);
+  border: 2px solid rgba(179, 133, 198, 1);
 }
 
 .box div:nth-child(4) {
   width: 80px;
   height: 80px;
-  top: 20%;
+  top: 27%;
   left: 60%;
   animation: animate 10s linear infinite;
   border: 2px solid rgba(241, 142, 145, 1);
@@ -212,16 +213,7 @@ header {
   top: 90%;
   left: 25%;
   animation: animate 9s linear infinite;
-  border: 2px solid rgba(159, 20, 25, 1);
-}
-
-.box div:nth-child(10) {
-  width: 10px;
-  height: 10px;
-  top: 20%;
-  left: 80%;
-  animation: animate 12s linear infinite;
-  border: 2px solid rgba(102, 57, 122, 1);
+  border: 2px solid rgba(179, 133, 198, 1);
 }
 
 @keyframes animate {
