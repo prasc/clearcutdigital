@@ -13,15 +13,14 @@ a {
 }
 
 body {
-  font-family: "Cantarell-Regular", sans-serif;
+  font-family: "VisbyRoundCF-Regular", sans-serif;
   line-height: 1.7rem;
   font-size: 1.2rem;
   margin: 0 auto;
 }
 
-h1,
-h2 {
-  font-family: "SpartanMB-Regular", sans-serif;
+h1 {
+  font-family: "VisbyRoundCF-Bold", sans-serif;
 }
 
 a {
@@ -120,7 +119,13 @@ header h1 {
 
 header h2 {
   color: #e31e25;
-  font-size: 1.25rem;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
 }
 
 .box div {
@@ -256,6 +261,11 @@ header h2 {
   }
 }
 
+.services {
+  background: #e31e25;
+  color: white;
+}
+
 /* Helvetica */
 @font-face {
   font-family: "Helvetica";
@@ -286,6 +296,22 @@ header h2 {
   src: url("../assets/fonts/SpartanMB-Regular.ttf");
   /* IE9 Compat Modes */
   src: local("SpartanMB-Regular"), local("SpartanMB-Regular"), url("../assets/fonts/SpartanMB-Regular.ttf");
+}
+
+/* VisbyRoundCF-Bold */
+@font-face {
+  font-family: "VisbyRoundCF-Bold";
+  src: url("../assets/fonts/VisbyRoundCF-Bold.otf");
+  /* IE9 Compat Modes */
+  src: local("VisbyRoundCF-Bold"), local("VisbyRoundCF-Bold"), url("../assets/fonts/VisbyRoundCF-Bold.otf");
+}
+
+/* VisbyRoundCF */
+@font-face {
+  font-family: "VisbyRoundCF-Regular";
+  src: url("../assets/fonts/VisbyRoundCF-Regular.otf");
+  /* IE9 Compat Modes */
+  src: local("VisbyRoundCF-Regular"), local("VisbyRoundCF-Bold"), url("../assets/fonts/VisbyRoundCF-Regular.otf");
 }
 
 @media only screen and (max-width: 1070px) {
