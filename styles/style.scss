@@ -27,9 +27,9 @@ a {
 }
 
 .wrapperslim {
-  width: 70%;
-  margin: 0 auto;
   max-width: 1200px;
+  width: 75%;
+  margin: 0 auto;
 }
 
 img {
@@ -40,18 +40,7 @@ img {
 
 //----------------------------- Footer
 
-//----------------------------- Media queries
 
-@media only screen and (max-width: 1070px) {
-  header {
-    h1 {
-      line-height: 60px;
-    }
-    h2 {
-      margin-top: -20px;
-    }
-  }
-}
 
 //----------------------------- Imports
 
