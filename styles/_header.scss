@@ -7,126 +7,113 @@ header {
   flex-direction: column;
   justify-content: center;
   h1 {
-    color: $purple;
+    color: $lightpurple;
     font-size: 4rem;
     line-height-step: 1.3em;
     letter-spacing: 1px;
   }
 
   h2 {
-    color: $red;
+    color: $lightred;
     font-size: 2rem;
     margin-top: -1rem;
   }
 }
 
-.ml15 .word {
+// .word {
+//   color: white;
+// }
+
+// .ml15 .word {
+//   display: inline-block;
+//   line-height: 1em;
+// }
+
+// Second header
+
+.ml11 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+  top: 0;
+  left: 0;
+}
+
+.ml11 .letter {
   display: inline-block;
   line-height: 1em;
+  color: $lightred;
 }
 
-.box div {
+// Animation stuff
+
+.headerText {
+  background: none;
   position: absolute;
-  width: 60px;
-  height: 60px;
-  background-color: transparent;
-}
-
-.box div:nth-child(1) {
-  width: 10px;
-  height: 10px;
-  top: 20%;
-  left: 42%;
-  animation: animate 10s linear infinite;
-  border: 2px solid rgba(241, 142, 145, 1);
-}
-
-.box div:nth-child(2) {
-  width: 120px;
-  height: 120px;
-  top: 70%;
-  left: 50%;
-  animation: animate 7s linear infinite;
-  border: 2px solid rgba(102, 57, 122, 1);
-}
-
-.box div:nth-child(3) {
-  width: 100px;
-  height: 100px;
-  top: 25%;
-  left: 6%;
-  animation: animate 9s linear infinite;
-  border: 2px solid rgba(179, 133, 198, 1);
-}
-
-.box div:nth-child(4) {
-  width: 80px;
-  height: 80px;
-  top: 27%;
-  left: 60%;
-  animation: animate 10s linear infinite;
-  border: 2px solid rgba(241, 142, 145, 1);
-}
-
-.box div:nth-child(5) {
-  width: 40px;
-  height: 40px;
-  top: 67%;
   left: 10%;
-  animation: animate 6s linear infinite;
-  border: 2px solid rgba(179, 133, 198, 1);
+  right: 10%;
 }
 
-.box div:nth-child(6) {
-  width: 80px;
-  height: 80px;
-  top: 80%;
-  left: 70%;
-  animation: animate 12s linear infinite;
-  border: 2px solid rgba(241, 142, 145, 1);
+.background {
+  height: 80vh;
+  background: #3e1e68;
 }
 
-.box div:nth-child(7) {
-  width: 100px;
-  height: 100px;
-  top: 60%;
-  left: 80%;
-  animation: animate 15s linear infinite;
-  border: 2px solid rgba(102, 57, 122, 1);
-}
-
-.box div:nth-child(8) {
-  width: 120px;
-  height: 120px;
-  top: 32%;
-  left: 25%;
-  animation: animate 16s linear infinite;
-  border: 2px solid rgba(179, 133, 198, 1);
-}
-
-.box div:nth-child(9) {
-  width: 30px;
-  height: 30px;
-  top: 90%;
-  left: 25%;
-  animation: animate 9s linear infinite;
-  border: 2px solid rgba(179, 133, 198, 1);
-}
-
-@keyframes animate {
-  0% {
-    transform: scale(0) translateY(0) rotate(0);
-    opacity: 1;
+$particleSize: 5vmin;
+$animationDuration: 6s;
+$amount: 20;
+.background span {
+  width: $particleSize;
+  height: $particleSize;
+  border-radius: $particleSize;
+  backface-visibility: hidden;
+  position: absolute;
+  animation-name: move;
+  animation-duration: $animationDuration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  $colors: (#583c87, #e45a84, #ffacac);
+  @for $i from 1 through $amount {
+    &:nth-child(#{$i}) {
+      color: nth($colors, random(length($colors)));
+      top: random(70) * 1%;
+      left: random(100) * 1%;
+      animation-duration: (random($animationDuration * 10) / 10) * 1s + 10s;
+      animation-delay: random(($animationDuration + 10s) * 10) / 10 * -1s;
+      transform-origin: (random(50) - 25) * 1vw (random(50) - 25) * 1vh;
+      $blurRadius: (random() + 0.5) * $particleSize * 0.5;
+      $x: if(random() > 0.5, -1, 1);
+      box-shadow: ($particleSize * 2 * $x) 0 $blurRadius currentColor;
+    }
   }
+}
+
+@keyframes move {
   100% {
-    transform: scale(1.3) translateY(-90px) rotate(360deg);
-    opacity: 1;
+    transform: translate3d(0, 0, 1px) rotate(360deg);
   }
 }
-
-
 //----------------------------- Media queries
-
 
 @media only screen and (max-width: 1115px) {
   header {
@@ -205,7 +192,6 @@ header {
       width: 50%;
       margin: 0 auto;
       line-height: 30px;
-
     }
     h2 {
       font-size: 1rem;
