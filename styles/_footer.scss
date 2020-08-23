@@ -1,0 +1,23 @@
+//----------------------------- Footer
+
+
+footer {
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        div {
+            width: calc(100/3);
+        }
+        img {
+            width: 50px;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
