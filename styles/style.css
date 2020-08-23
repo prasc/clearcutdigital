@@ -985,17 +985,21 @@ header h2 {
 .process h2 {
   text-align: left;
   font-size: 2.5rem;
-  padding: 1.5rem 0;
 }
 
 .process ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .process ul li {
-  width: 30%;
+  width: 25%;
 }
 
 .process ul li p:first-of-type {
