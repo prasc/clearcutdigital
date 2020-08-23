@@ -792,7 +792,7 @@ header h2 {
 
 @media only screen and (max-width: 1100px) {
   .clientele {
-    width: 100%;
+    width: 90%;
   }
   .clientele h2 {
     font-size: 2rem;
@@ -805,6 +805,42 @@ header h2 {
   }
   .clientele img {
     min-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .clientele {
+    width: 90%;
+  }
+  .clientele h2 {
+    font-size: 2rem;
+  }
+  .clientele div:first-of-type {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .clientele div:first-of-type p {
+    font-size: 1.25rem;
+  }
+  .clientele img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .clientele {
+    width: 90%;
+  }
+  .clientele h2 {
+    font-size: 2rem;
+  }
+  .clientele div:first-of-type {
+    min-width: 60%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .clientele div:first-of-type p {
+    font-size: 1.05rem;
   }
 }
 
@@ -939,7 +975,7 @@ header h2 {
 .process {
   background: #854a9e;
   color: white;
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   text-align: center;
 }
 
@@ -956,22 +992,14 @@ header h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.process ul img {
-  width: 150px;
-  margin-bottom: 1.5rem;
+.process ul li {
+  width: 30%;
 }
 
-.process ul p {
-  width: 300px;
-  font-size: 1.5rem;
+.process ul li p:first-of-type {
+  font-size: 5rem;
 }
 
 .demo ul {

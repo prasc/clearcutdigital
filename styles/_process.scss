@@ -3,7 +3,7 @@
 .process {
   background: $purple;
   color: white;
-  padding: $consistent-gap;
+  padding: $consistent-gap 0;
   text-align: center;
   .underline {
     border-bottom: 4px solid white;
@@ -14,15 +14,11 @@
   }
   ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    img {
-      width: 150px;
-      margin-bottom: 1.5rem;
-    }
-    p {
-      width: 300px;
-      font-size: 1.5rem;
+    li {
+      width: 30%;
+      p:first-of-type {
+        font-size: 5rem;
+      }
     }
   }
 }
