@@ -10,6 +10,10 @@ $lightred: rgba(241, 142, 145, 1);
 
 //----------------------------- General
 
+body {
+  overflow-x: hidden;
+}
+
 ul,
 li {
   list-style: none;
