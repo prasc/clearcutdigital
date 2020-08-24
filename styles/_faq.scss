@@ -1,6 +1,10 @@
 .faq {
+  padding: $consistent-gap 0;
   .underline {
     border-bottom: 4px solid black;
+  }
+  h2 {
+    font-size: 2.5rem;
   }
 }
 

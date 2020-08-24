@@ -1,23 +1,24 @@
 //----------------------------- Footer
 
-
 footer {
-    .contact {
-        display: flex;
-        justify-content: space-between;
-        div {
-            width: calc(100/3);
-        }
-        img {
-            width: 50px;
-        }
-        p {
-            font-size: 1rem;
-        }
-    }
+  padding: $consistent-gap 0;
 
-    .copyright {
-        font-size: 0.8rem;
-        text-align: center;
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: calc(100 / 3);
     }
+    img {
+      width: 50px;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }

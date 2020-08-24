@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: $consistent-gap 0;
   width: 60%;
   .underline {
     border-bottom: 4px solid black;

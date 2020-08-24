@@ -7,16 +7,17 @@ header {
   flex-direction: column;
   justify-content: center;
   h1 {
-    color: $lightpurple;
+    color: white;
     font-size: 4rem;
     line-height-step: 1.3em;
-    letter-spacing: 1px;
+    letter-spacing: 2.7px;
   }
 
   h2 {
-    color: $lightred;
+    color: $red;
     font-size: 2rem;
     margin-top: -1rem;
+    letter-spacing: 1.2rem;
   }
 }
 
@@ -33,7 +34,7 @@ header {
 
 .ml11 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .ml11 .text-wrapper {
@@ -62,7 +63,8 @@ header {
 .ml11 .letter {
   display: inline-block;
   line-height: 1em;
-  color: $lightred;
+  color: white;
+  letter-spacing: 3px;
 }
 
 // Animation stuff
@@ -76,7 +78,7 @@ header {
 
 .background {
   height: 80vh;
-  background: #3e1e68;
+  background: $purple;
 }
 
 $particleSize: 5vmin;
