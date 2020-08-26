@@ -36,7 +36,7 @@
 
 @media only screen and (max-width: 1200px) {
   .process {
-    // padding: $consistent-gap;
+    padding: $consistent-gap;
     .wrapperslim {
       width: 100%;
     }
@@ -50,6 +50,7 @@
       font-size: 1.5rem;
     }
     ul {
+      width: 120%;
       li {
         width: 25%;
       }
@@ -79,17 +80,22 @@
       font-size: 2rem;
     }
     ul {
-      img {
-        margin: $consistent-gap;
-      }
+      width: 100%;
+      padding: 0;
       h3 {
         margin: 0;
       }
       li {
         width: 70%;
         p {
-          font-size: 1.25rem;
+          font-size: 1.5rem;
+          margin: $consistent-gap 0;
         }
+      }
+    }
+    .reserved {
+      img {
+        margin-bottom: -50px;
       }
     }
   }
