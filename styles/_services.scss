@@ -30,6 +30,9 @@
 @media only screen and (max-width: 1200px) {
   .services {
     padding: $consistent-gap;
+    .wrapperslim {
+      width: 100%;
+    }
     .underline {
       border-bottom: 4px solid white;
     }
@@ -37,7 +40,7 @@
       font-size: 2rem;
     }
     h3 {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
     ul {
       display: flex;
@@ -51,12 +54,12 @@
         align-items: center;
       }
       img {
-        width: 30%;
-        margin-bottom: 1.5rem;
+        width: 40%;
+        margin-bottom: 1.2rem;
       }
       p {
-        width: 75%;
-        font-size: 1.1rem;
+        width: 90%;
+        font-size: 1.4rem;
       }
     }
   }
@@ -71,7 +74,7 @@
       li {
         p {
           width: 100%;
-          font-size: 1rem;
+          font-size: 1.4rem;
         }
       }
     }
