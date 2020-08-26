@@ -117,87 +117,102 @@ $amount: 20;
 }
 //----------------------------- Media queries
 
-@media only screen and (max-width: 1115px) {
+@media only screen and (max-width: 1380px) {
   header {
     h1 {
       font-size: 3rem;
       line-height-step: 1.3em;
       letter-spacing: 1px;
     }
-    h2 {
-      font-size: 1.65rem;
+    .ml11 {
+      font-weight: 700;
+      font-size: 1.2rem;
     }
   }
 }
 
-@media only screen and (max-width: 1070px) {
-  header {
-    h1 {
-      line-height: 60px;
-    }
-    h2 {
-      margin-top: -20px;
-    }
-  }
-}
-
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 1020px) {
   header {
     h1 {
       font-size: 2.5rem;
+      line-height-step: 1.3em;
+      letter-spacing: 1px;
     }
-    h2 {
-      font-size: 1.35rem;
-    }
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  header {
-    h1 {
-      font-size: 2.2rem;
-    }
-    h2 {
-      font-size: 1.25rem;
+    .ml11 {
+      font-weight: 700;
+      font-size: 1rem;
     }
   }
 }
 
-@media only screen and (max-width: 690px) {
+
+
+@media only screen and (max-width: 900px) {
   header {
     h1 {
       font-size: 2rem;
     }
-    h2 {
-      font-size: 1.05rem;
+    .ml11 {
+      font-weight: 700;
+      font-size: 0.9rem;
     }
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 850px) {
   header {
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
-    h2 {
+    .ml11 {
       font-size: 1rem;
-      width: 70%;
+      width: 260px;
       margin: 0 auto;
     }
   }
 }
 
-@media only screen and (max-width: 460px) {
+
+@media only screen and (max-width: 660px) {
   header {
     h1 {
-      font-size: 1.5rem;
-      width: 50%;
-      margin: 0 auto;
-      line-height: 30px;
+      font-size: 1.6rem;
     }
-    h2 {
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  header {
+    h1 {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  header {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header {
+    h1 {
       font-size: 1rem;
-      width: 70%;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  header {
+    h1 {
+      font-size: 1rem;
+    }   
+    .ml11 {
+      font-size: 0.8rem;
+      width: 260px;
       margin: 0 auto;
     }
   }
