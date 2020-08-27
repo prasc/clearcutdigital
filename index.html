@@ -18,6 +18,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/aos.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="shortcut icon" href="#" />
 
@@ -56,11 +57,11 @@
         <span></span>
 
         <ul id="menu">
-          <a href="#"><li>Services</li></a>
-          <a href="#"><li>The Customer</li></a>
-          <a href="#"><li>The Process</li></a>
-          <a href="#"><li>FAQ</li></a>
-          <a href="#"><li>Let's Talk</li></a>
+          <a href="#services"><li>Services</li></a>
+          <a href="#aboutus"><li>About Us</li></a>
+          <a href="#theprocess"><li>The Process</li></a>
+          <a href="#faq"><li>FAQ</li></a>
+          <a href="#letsTalk"><li>Let's Talk</li></a>
         </ul>
       </div>
     </nav>
@@ -74,19 +75,19 @@
       <nav>
         <ul>
           <li>
-            <a href="">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a href="">The Customer</a>
+            <a href="#aboutus">About Us</a>
           </li>
           <li>
-            <a href="">The Process</a>
+            <a href="#theprocess">The Process</a>
           </li>
           <li>
-            <a href="">FAQ</a>
+            <a href="#faq">FAQ</a>
           </li>
           <li>
-            <a href="">Let's Talk</a>
+            <a href="#letsTalk">Let's Talk</a>
           </li>
         </ul>
       </nav>
@@ -131,16 +132,16 @@
             >
           </span>
         </h1>
-        <a class="bookNow" href="">BOOK NOW</a>
+        <a class="bookNow" href="#letsTalk">BOOK NOW</a>
       </div>
     </header>
 
     <!-- Services -->
 
-    <section class="services">
+    <section class="services" id="services">
       <div class="wrapperslim">
         <h2><span class="underline">How</span> we help you</h2>
-        <ul>
+        <ul data-aos="zoom-in-up">
           <li>
             <img src="assets/images/icons/paper-128.png" alt="" />
             <h3>Product Development</h3>
@@ -170,7 +171,7 @@
 
     <!-- Who we work with -->
 
-    <section class="wrapperslim">
+    <section class="wrapperslim" id="aboutus">
       <div class="clientele">
         <div>
           <h2><span class="underline">Who</span> we are</h2>
@@ -203,10 +204,10 @@
 
     <!-- What's the process? -->
 
-    <section class="process">
+    <section class="process" id="theprocess">
       <div class="wrapperslim">
         <h2><span class="underline">What's</span> the process?</h2>
-        <ul>
+        <ul data-aos="zoom-out-up">
           <li class="reserved">
             <img src="assets/images/icons/reserved.svg" alt="" />
             <p class="processText">Reserve a one-on-one consultation</p>
@@ -223,7 +224,6 @@
             <img src="assets/images/icons/upload.svg" alt="" />
             <p class="processText">Review and approve, then go live!</p>
           </li>
-          <li></li>
         </ul>
       </div>
     </section>
@@ -248,7 +248,7 @@
 
     <!-- F.A.Q -->
 
-    <section class="wrapperslim faq">
+    <section class="wrapperslim faq" id="faq">
       <h2><span class="underline">FAQ</span></h2>
       <div class="accordion">
         <div class="accordion-item">
@@ -304,7 +304,7 @@
 
     <!-- Wanna Chat?  -->
 
-    <section class="wrapperslim">
+    <section class="wrapperslim" id="letsTalk">
       <div class="letsTalk">
         <h2><span class="underline">Let's</span> work together</h2>
         <div class="peoples">
@@ -338,38 +338,16 @@
     <!-- Footer -->
     <footer class="wrapperslim">
       <img src="assets/images/logo-long.png" alt="" />
-      <section class="contact">
-        <div>
-          <h3>About Us</h3>
-          <p>
-            Clear Cut Digital specializes in helping entrepeneurs and small
-            businesses create an online presence and grow their businesses. We
-            start by understanding the needs of your business, then create a
-            tailored solution for your business.
-          </p>
-        </div>
-        <div>
-          <h3></h3>
-        </div>
-      </section>
-      <p class="copyright">Copyright 2020 Clear Cut Digital Inc.</p>
+      <section class="contact"></section>
+      <p class="copyright">
+        Copyright 2020 Clear Cut Digital Inc.
+        <a href="termsOfUse.html"> Privacy Policy</a>
+      </p>
     </footer>
-
-    <!-- <div>
-          <h3>About Us</h3>
-          <p>
-            Clear Cut Digital specializes in helping entrepeneurs and small
-            businesses create an online presence and grow their businesses. We
-            start by understanding the needs of your business, then create a
-            tailored solution for your business.
-          </p>
-        </div>
-        <div>
-          <h3>Contact Us</h3>
-          <p>hello@clearcutdigital.com</p>
-        </div> -->
   </body>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script src="js/anime.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </html>

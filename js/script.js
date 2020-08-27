@@ -1,24 +1,13 @@
-// First header Text
+// Smooth Scroll ->  All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 500,
+  speedAsDuration: true,
+  offset: 114.5,
+});
 
-// anime
-//   .timeline({ loop: true })
-//   .add({
-//     targets: ".ml15 .word",
-//     scale: [14, 1],
-//     opacity: [0, 1],
-//     easing: "easeOutCirc",
-//     duration: 800,
-//     delay: (el, i) => 800 * i,
-//   })
-//   .add({
-//     targets: ".ml15",
-//     opacity: 0,
-//     duration: 1000,
-//     easing: "easeOutExpo",
-//     delay: 5000,
-//   });
+// Animate on Scroll
 
-// Second header
+AOS.init();
 
 // Wrap every letter in a span
 var textWrapper = document.querySelector(".ml11 .letters");

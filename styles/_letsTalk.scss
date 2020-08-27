@@ -1,55 +1,59 @@
 //----------------------------- Let's Talk
 
 .letsTalk {
-    width: 100%;
-    margin: $consistent-gap 0;
-    border-radius: 20px;
-    h2 {
-        font-size: 2.5rem;
-      }
-    .underline {
-        border-bottom: 4px solid black;
-      }
-    .options {
-        width: 90%;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        div:hover {
-            background: black;
-        }
-        div {
-            background: $red;
-            border-radius: 40px;
-            height: 50px;
-            padding: 0 20px;
-            display: flex;
-            align-items: center;
-            margin-top: 2rem;
-            transition: 0.3s;
-            a {
-                display: inline;
-            }
-        
-            p {
-                color: white;
-                font-size: 1.5rem;
-            }
-            img {
-                width: 30px;
-                margin-left: 10px;
-                filter: brightness(0) invert(1);
-            }
-        }
-    }
-}
-
-.peoples {
+  width: 90%;
+  margin: $consistent-gap 0;
+  border-radius: 20px;
+  background-color: $red;
+  padding: $consistent-gap;
+  h2 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  .underline {
+    border-bottom: 4px solid white;
+  }
+  .options {
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    img {
-        width: 15%;
+    div:hover {
+      background: black;
+      padding: 4px 22px;
     }
+    div {
+      background: $purple;
+      border-radius: 40px;
+      height: 50px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      transition: 0.2s;
+      a {
+        display: inline;
+      }
+
+      p {
+        color: white;
+        font-size: 1.5rem;
+      }
+      img {
+        width: 30px;
+        margin-left: 10px;
+        filter: brightness(100) invert(1);
+      }
+    }
+  }
+}
+
+.peoples {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  img {
+    width: 15%;
+  }
 }
