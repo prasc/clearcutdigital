@@ -2,21 +2,16 @@
 
 footer {
   padding: $consistent-gap 0;
-
   .contact {
     display: flex;
     justify-content: space-between;
-    div {
-      width: calc(100 / 3);
-    }
-    img {
-      width: 50px;
-    }
-    p {
-      font-size: 1rem;
-    }
   }
-
+  div {
+    width: 30%;
+  }
+  img {
+    width: 50%;
+  }
   .copyright {
     font-size: 0.8rem;
     text-align: center;

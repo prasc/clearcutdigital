@@ -21,20 +21,26 @@ header {
   }
 }
 
-// .word {
-//   color: white;
-// }
+.bookNow {
+  color: $purple;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 2rem;
+}
 
-// .ml15 .word {
-//   display: inline-block;
-//   line-height: 1em;
-// }
-
+.bookNow:hover {
+  color: white;
+  background-color: $lightpurple;
+  padding: 1.5rem;
+}
 // Second header
 
 .ml11 {
   font-weight: 700;
   font-size: 1.8rem;
+  margin-bottom: 3rem;
 }
 
 .ml11 .text-wrapper {
@@ -145,8 +151,6 @@ $amount: 20;
   }
 }
 
-
-
 @media only screen and (max-width: 900px) {
   header {
     h1 {
@@ -171,7 +175,6 @@ $amount: 20;
     }
   }
 }
-
 
 @media only screen and (max-width: 660px) {
   header {
@@ -209,7 +212,7 @@ $amount: 20;
   header {
     h1 {
       font-size: 1rem;
-    }   
+    }
     .ml11 {
       font-size: 0.8rem;
       width: 260px;
