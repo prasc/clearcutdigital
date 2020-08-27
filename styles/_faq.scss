@@ -19,6 +19,11 @@
   margin: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+.accordion-item:hover {
+  background-color: black;
+
 }
 .accordion-item-header {
   padding: 0.5rem 3rem 0.5rem 1rem;
