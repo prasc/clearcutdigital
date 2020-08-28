@@ -2,6 +2,7 @@
 
 footer {
   padding: $consistent-gap 0;
+
   .contact {
     display: flex;
     justify-content: space-between;
@@ -9,8 +10,12 @@ footer {
   div {
     width: 30%;
   }
+  .logoContainer {
+    margin: 0 auto;
+    width: 90%;
+  }
   img {
-    width: 50%;
+    width: 100%;
   }
   .copyright {
     font-size: 0.8rem;

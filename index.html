@@ -132,7 +132,12 @@
             >
           </span>
         </h1>
-        <a class="bookNow" href="#letsTalk">BOOK NOW</a>
+        <a
+          class="bookNow"
+          href=""
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/clearcutdigital'});return false;"
+          >BOOK NOW</a
+        >
       </div>
     </header>
 
@@ -266,7 +271,7 @@
     <!-- Live Demo -->
 
     <section class="wrapperslim demo">
-      <h2><span class="underline">Case</span> studies</h2>
+      <h2><span class="underline">Our</span> work</h2>
       <ul>
         <a href="kumi.html" target="blank"
           ><li><img src="assets/images/kumiphysio/demo1.png" alt="" /></li
@@ -345,19 +350,19 @@
         <div class="peoples">
           <img
             data-aos="flip-left"
-            data-aos-delay="750"
+            data-aos-delay="250"
             src="assets/images/avatar1.png"
             alt=""
           />
           <img
             data-aos="flip-up"
-            data-aos-delay="900"
+            data-aos-delay="500"
             src="assets/images/avatar2.png"
             alt=""
           />
           <img
             data-aos="flip-right"
-            data-aos-delay="750"
+            data-aos-delay="250"
             src="assets/images/avatar3.png"
             alt=""
           />
@@ -369,12 +374,14 @@
               <img src="assets/images/icons/phone.svg" alt="" />
             </div>
           </a>
-          <a href="">
+          <a
+            href=""
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/clearcutdigital'});return false;"
+          >
             <div>
               <p>Book</p>
-              <img src="assets/images/icons/appointment.svg" alt="" />
-            </div>
-          </a>
+              <img src="assets/images/icons/appointment.svg" alt="" /></div
+          ></a>
           <a href="">
             <div>
               <p>Email</p>
@@ -387,7 +394,9 @@
 
     <!-- Footer -->
     <footer class="wrapperslim">
-      <img src="assets/images/logo-long.png" alt="" />
+      <div class="logoContainer">
+        <img src="assets/images/logo-long.png" alt="" />
+      </div>
       <section class="contact"></section>
       <p class="copyright">
         Copyright 2020 Clear Cut Digital Inc.
@@ -395,6 +404,19 @@
       </p>
     </footer>
   </body>
+
+  <!-- Calendly link widget begin -->
+  <link
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  />
+  <script
+    src="https://assets.calendly.com/assets/external/widget.js"
+    type="text/javascript"
+  ></script>
+
+  <!-- Calendly link widget end -->
+
   <script src="js/smooth-scroll.polyfills.min.js"></script>
   <script src="js/anime.min.js"></script>
   <script src="js/aos.js"></script>

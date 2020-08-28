@@ -86,6 +86,7 @@ header {
 .background {
   height: 80vh;
   background: $purple;
+  overflow-x: hidden !important;
 }
 
 $particleSize: 5vmin;
