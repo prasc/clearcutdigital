@@ -6,16 +6,21 @@
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 10;
   div {
     width: 20%;
     img {
       width: 15rem;
     }
   }
-  nav {
+  .mainNav {
     width: 50%;
+    max-width: 800px;
   }
-  nav ul {
+  .mainNav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,18 +52,26 @@
   }
 }
 
-nav[role="navigation"] {
+// ----------------- Navbar aanimate on scroll
+
+
+.scrolled {
+  height: 100px;
+  position: fixed;
+  background: white;
+  width: 100%;
+  transition: 0.35s all ease;
 }
 
 //------------------------ MOBILE NAVBAR
 
 #menuToggle {
   display: block;
-  position: absolute;
-  top: 75px;
+  position: relative;
+  top: 0;
   right: 150px;
 
-  z-index: 1;
+  z-index: 10;
 
   -webkit-user-select: none;
   user-select: none;
@@ -151,7 +164,7 @@ nav[role="navigation"] {
   */
 #menu {
   position: absolute;
-  right: -150px;
+  right: -200px;
   width: 100vw;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -185,7 +198,7 @@ nav[role="navigation"] {
 }
 
 @media only screen and (max-width: 1310px) {
-  .top-nav nav {
+  .top-nav .mainNav {
     display: none;
   }
 }

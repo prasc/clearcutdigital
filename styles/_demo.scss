@@ -28,3 +28,13 @@
   width: 70%;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 850px) {
+  .demo {
+    ul {
+      flex-direction: column;
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,15 +1,15 @@
-// Smooth Scroll ->  All animations will take exactly 500ms
+//  -------------->  Smooth Scroll ->  All animations will take exactly 500ms
 var scroll = new SmoothScroll('a[href*="#"]', {
   speed: 500,
   speedAsDuration: true,
-  offset: 114.5,
+  offset: 100,
 });
 
-// Animate on Scroll
+// -------------->  Animate on Scroll
 
 AOS.init();
 
-// Wrap every letter in a span
+// -------------->  Header text affect
 var textWrapper = document.querySelector(".ml11 .letters");
 textWrapper.innerHTML = textWrapper.textContent.replace(
   /([^\x00-\x80]|\w)/g,
@@ -52,7 +52,7 @@ anime
     delay: 1000,
   });
 
-// FAQ
+// --------------> FAQ
 
 const accordionItemHeaders = document.querySelectorAll(
   ".accordion-item-header"
@@ -60,13 +60,13 @@ const accordionItemHeaders = document.querySelectorAll(
 
 accordionItemHeaders.forEach((accordionItemHeader) => {
   accordionItemHeader.addEventListener("click", (event) => {
-    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+   //  Uncomment in case you only want to allow for the display of only one collapsed item at a time!
 
-    // const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
-    // if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
-    //   currentlyActiveAccordionItemHeader.classList.toggle("active");
-    //   currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
-    // }
+    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
+    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+      currentlyActiveAccordionItemHeader.classList.toggle("active");
+      currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+    }
 
     accordionItemHeader.classList.toggle("active");
     const accordionItemBody = accordionItemHeader.nextElementSibling;
@@ -78,11 +78,13 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
   });
 });
 
-// Modal -> both windows for text and email
+//  -------------->  Modal 
 
 // Get the modal
 var modal = document.getElementById("myModal");
 var modal2 = document.getElementById("myModal2");
+var mobileNav = document.getElementById("menu");
+var menuToggle = document.getElementById("menuToggle").children[0];
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -110,9 +112,23 @@ span2.onclick = function () {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  console.log(event.target);
-  if (event.target == modal2 || event.target == modal) {
+  if (event.target == modal2 || event.target == modal || event.target.parentElement.parentElement == mobileNav ) {
     modal2.style.display = "none";
     modal.style.display = "none";
+    menuToggle.checked = false;
+  }
+};
+
+// ----------------> Animate nav bar on scroll
+
+var nav = document.getElementsByClassName("top-nav")[0];
+
+window.onscroll = function () { 
+  "use strict";
+  if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+    nav.classList.add("scrolled");
+  } 
+  else {
+    nav.classList.remove("scrolled");
   }
 };

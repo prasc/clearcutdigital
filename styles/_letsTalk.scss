@@ -82,11 +82,18 @@
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: $purple;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 50%;
+  height: 200px;
+  color: white;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* The Close Button */
@@ -105,4 +112,62 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+  .letsTalk {
+    .options {
+      width: 30%;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      button  {
+        text-align: center !important;
+      }
+    }
+  }
+
+  .peoples {
+    flex-direction: column;
+    margin-bottom: -250px;
+    img {
+      width: 82px;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  .letsTalk {
+    width: 100%;
+    padding: $consistent-gap 0;
+    .options {
+      width: 40%;
+    }
+    h2 {
+      margin-left: $consistent-gap;
+      font-size: 2rem;
+    }
+  }  
+  
+}
+
+@media only screen and (max-width: 580px) {
+  .letsTalk {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .letsTalk {
+    h2 {
+      font-size: 1.3rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
 }
