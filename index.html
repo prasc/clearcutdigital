@@ -371,12 +371,14 @@
           />
         </div>
         <div class="options">
-          <a href="">
+          <button id="myBtn">
             <div>
+              <!-- Trigger/Open The Modal -->
               <p>Text</p>
+
               <img src="assets/images/icons/phone.svg" alt="" />
             </div>
-          </a>
+          </button>
           <a
             href=""
             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/clearcutdigital'});return false;"
@@ -385,15 +387,35 @@
               <p>Book</p>
               <img src="assets/images/icons/appointment.svg" alt="" /></div
           ></a>
-          <a href="">
+          <button id="myBtn2">
             <div>
+              <!-- Trigger/Open The Modal -->
               <p>Email</p>
+
               <img src="assets/images/icons/mail.svg" alt="" />
             </div>
-          </a>
+          </button>
         </div>
       </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>416-992-3114</p>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="closeit">&times;</span>
+        <p>hello@clearcutdigital.com</p>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="wrapperslim">
