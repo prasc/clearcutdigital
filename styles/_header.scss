@@ -2,10 +2,11 @@
 
 header {
   text-align: center;
-  height: 80vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: $purple;
   h1 {
     color: white;
     font-size: 4rem;
@@ -19,6 +20,10 @@ header {
     margin-top: -1rem;
     letter-spacing: 1.2rem;
   }
+}
+
+.headerText {
+  margin-top: 200px;
 }
 
 .bookNow {
@@ -178,7 +183,6 @@ $amount: 20;
   }
 }
 
-
 @media only screen and (max-width: 770px) {
   header {
     h1 {
@@ -271,4 +275,3 @@ $amount: 20;
     }
   }
 }
-
