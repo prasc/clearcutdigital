@@ -161,7 +161,7 @@ $amount: 20;
 @media only screen and (max-width: 900px) {
   header {
     h1 {
-      font-size: 2rem;
+      font-size: 2.4rem;
     }
     .ml11 {
       font-weight: 700;
@@ -202,7 +202,7 @@ $amount: 20;
 @media only screen and (max-width: 710px) {
   header {
     h1 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       line-height: 3rem;
       margin: 0 auto;
       width: 100%;
@@ -268,10 +268,11 @@ $amount: 20;
     }
     .ml11 {
       font-size: 1rem;
-      width: 100%;
+      width: 260px;
       line-height: 2rem;
       margin: 0 auto $consistent-gap auto;
       text-align: center;
     }
+
   }
 }

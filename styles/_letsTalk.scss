@@ -6,6 +6,7 @@
   border-radius: 20px;
   background-color: $red;
   padding: $consistent-gap;
+  margin-top: $consistent-gap *2;
   h2 {
     font-size: 2.5rem;
     color: white;
@@ -123,17 +124,28 @@
       display: flex;
       margin: 0 auto;
       flex-direction: column;
+      padding: $consistent-gap*1.5 0;
+      div {
+        margin-top: 130px;
+      }
       button  {
         text-align: center !important;
+      }
+      #myBtn {
+        margin-top: -200px;
       }
     }
   }
 
   .peoples {
     flex-direction: column;
-    margin-bottom: -250px;
+    margin-bottom: -400px;
     img {
       width: 82px;
+      padding-top: 80px;
+    }
+    img:first-of-type {
+      margin-top: -50px;
     }
   }
 
