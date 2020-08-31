@@ -101,18 +101,22 @@ var span2 = document.getElementsByClassName("closeit")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function () {
-  modal.style.display = "block";
+  modal.classList.add("displayIt");
+  // modal.style.display = "block";
 };
 btn2.onclick = function () {
-  modal2.style.display = "block";
+  modal2.classList.add("displayIt");
+  // modal2.style.display = "block";
 };
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
-  modal.style.display = "none";
+  modal.classList.remove("displayIt");
+  // modal.style.display = "none";
 };
 span2.onclick = function () {
-  modal2.style.display = "none";
+  modal2.classList.remove("displayIt");
+  // modal2.style.display = "none";
 };
 
 // When the user clicks anywhere outside of the modal, close it
@@ -122,8 +126,10 @@ window.onclick = function (event) {
     event.target == modal ||
     event.target.parentElement.parentElement == mobileNav
   ) {
-    modal2.style.display = "none";
-    modal.style.display = "none";
+    // modal2.style.display = "none";
+    // modal.style.display = "none";
+    modal.classList.remove("displayIt");
+    modal2.classList.remove("displayIt");
     menuToggle.checked = false;
   }
 };
