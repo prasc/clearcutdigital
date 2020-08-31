@@ -60,10 +60,15 @@ const accordionItemHeaders = document.querySelectorAll(
 
 accordionItemHeaders.forEach((accordionItemHeader) => {
   accordionItemHeader.addEventListener("click", (event) => {
-   //  Uncomment in case you only want to allow for the display of only one collapsed item at a time!
+    //  Uncomment in case you only want to allow for the display of only one collapsed item at a time!
 
-    const currentlyActiveAccordionItemHeader = document.querySelector(".accordion-item-header.active");
-    if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
+    const currentlyActiveAccordionItemHeader = document.querySelector(
+      ".accordion-item-header.active"
+    );
+    if (
+      currentlyActiveAccordionItemHeader &&
+      currentlyActiveAccordionItemHeader !== accordionItemHeader
+    ) {
       currentlyActiveAccordionItemHeader.classList.toggle("active");
       currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
     }
@@ -78,7 +83,7 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
   });
 });
 
-//  -------------->  Modal 
+//  -------------->  Modal
 
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -112,7 +117,11 @@ span2.onclick = function () {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == modal2 || event.target == modal || event.target.parentElement.parentElement == mobileNav ) {
+  if (
+    event.target == modal2 ||
+    event.target == modal ||
+    event.target.parentElement.parentElement == mobileNav
+  ) {
     modal2.style.display = "none";
     modal.style.display = "none";
     menuToggle.checked = false;
@@ -123,12 +132,14 @@ window.onclick = function (event) {
 
 var nav = document.getElementsByClassName("top-nav")[0];
 
-window.onscroll = function () { 
+window.onscroll = function () {
   "use strict";
-  if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+  if (
+    document.body.scrollTop >= 200 ||
+    document.documentElement.scrollTop >= 200
+  ) {
     nav.classList.add("scrolled");
-  } 
-  else {
+  } else {
     nav.classList.remove("scrolled");
   }
 };
