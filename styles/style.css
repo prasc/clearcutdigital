@@ -775,283 +775,283 @@ header h2 {
 }
 
 .background span:nth-child(1) {
-  color: #9a379a;
-  top: 51%;
-  left: 52%;
-  -webkit-animation-duration: 14.9s;
-          animation-duration: 14.9s;
-  -webkit-animation-delay: -4.4s;
-          animation-delay: -4.4s;
-  -webkit-transform-origin: 3vw 8vh;
-          transform-origin: 3vw 8vh;
-  -webkit-box-shadow: -10vmin 0 2.59274vmin currentColor;
-          box-shadow: -10vmin 0 2.59274vmin currentColor;
+  color: #b385c6;
+  top: 3%;
+  left: 85%;
+  -webkit-animation-duration: 11.4s;
+          animation-duration: 11.4s;
+  -webkit-animation-delay: -9.7s;
+          animation-delay: -9.7s;
+  -webkit-transform-origin: 2vw -5vh;
+          transform-origin: 2vw -5vh;
+  -webkit-box-shadow: 10vmin 0 3.33269vmin currentColor;
+          box-shadow: 10vmin 0 3.33269vmin currentColor;
 }
 
 .background span:nth-child(2) {
-  color: #b385c6;
-  top: 57%;
-  left: 94%;
-  -webkit-animation-duration: 15.8s;
-          animation-duration: 15.8s;
-  -webkit-animation-delay: -6.1s;
-          animation-delay: -6.1s;
-  -webkit-transform-origin: 1vw -5vh;
-          transform-origin: 1vw -5vh;
-  -webkit-box-shadow: -10vmin 0 3.22091vmin currentColor;
-          box-shadow: -10vmin 0 3.22091vmin currentColor;
+  color: #9a379a;
+  top: 68%;
+  left: 62%;
+  -webkit-animation-duration: 13.4s;
+          animation-duration: 13.4s;
+  -webkit-animation-delay: -3.2s;
+          animation-delay: -3.2s;
+  -webkit-transform-origin: -4vw 8vh;
+          transform-origin: -4vw 8vh;
+  -webkit-box-shadow: 10vmin 0 2.76936vmin currentColor;
+          box-shadow: 10vmin 0 2.76936vmin currentColor;
 }
 
 .background span:nth-child(3) {
-  color: #66397a;
-  top: 42%;
-  left: 28%;
-  -webkit-animation-duration: 14.8s;
-          animation-duration: 14.8s;
-  -webkit-animation-delay: -14.4s;
-          animation-delay: -14.4s;
-  -webkit-transform-origin: -1vw -15vh;
-          transform-origin: -1vw -15vh;
-  -webkit-box-shadow: -10vmin 0 3.55751vmin currentColor;
-          box-shadow: -10vmin 0 3.55751vmin currentColor;
+  color: #9a379a;
+  top: 36%;
+  left: 11%;
+  -webkit-animation-duration: 10.2s;
+          animation-duration: 10.2s;
+  -webkit-animation-delay: -9.4s;
+          animation-delay: -9.4s;
+  -webkit-transform-origin: -22vw 17vh;
+          transform-origin: -22vw 17vh;
+  -webkit-box-shadow: -10vmin 0 2.89385vmin currentColor;
+          box-shadow: -10vmin 0 2.89385vmin currentColor;
 }
 
 .background span:nth-child(4) {
   color: #9a379a;
-  top: 10%;
-  left: 23%;
-  -webkit-animation-duration: 14.7s;
-          animation-duration: 14.7s;
-  -webkit-animation-delay: -3.7s;
-          animation-delay: -3.7s;
-  -webkit-transform-origin: -11vw 4vh;
-          transform-origin: -11vw 4vh;
-  -webkit-box-shadow: -10vmin 0 3.5246vmin currentColor;
-          box-shadow: -10vmin 0 3.5246vmin currentColor;
+  top: 38%;
+  left: 52%;
+  -webkit-animation-duration: 10.4s;
+          animation-duration: 10.4s;
+  -webkit-animation-delay: -13.8s;
+          animation-delay: -13.8s;
+  -webkit-transform-origin: 12vw -22vh;
+          transform-origin: 12vw -22vh;
+  -webkit-box-shadow: -10vmin 0 1.37726vmin currentColor;
+          box-shadow: -10vmin 0 1.37726vmin currentColor;
 }
 
 .background span:nth-child(5) {
-  color: #66397a;
-  top: 38%;
-  left: 64%;
-  -webkit-animation-duration: 10.6s;
-          animation-duration: 10.6s;
-  -webkit-animation-delay: -5.6s;
-          animation-delay: -5.6s;
-  -webkit-transform-origin: 15vw 1vh;
-          transform-origin: 15vw 1vh;
-  -webkit-box-shadow: -10vmin 0 3.57661vmin currentColor;
-          box-shadow: -10vmin 0 3.57661vmin currentColor;
+  color: #9a379a;
+  top: 63%;
+  left: 83%;
+  -webkit-animation-duration: 12.8s;
+          animation-duration: 12.8s;
+  -webkit-animation-delay: -14.9s;
+          animation-delay: -14.9s;
+  -webkit-transform-origin: -20vw 9vh;
+          transform-origin: -20vw 9vh;
+  -webkit-box-shadow: -10vmin 0 3.68574vmin currentColor;
+          box-shadow: -10vmin 0 3.68574vmin currentColor;
 }
 
 .background span:nth-child(6) {
-  color: #9a379a;
-  top: 29%;
-  left: 24%;
-  -webkit-animation-duration: 15.1s;
-          animation-duration: 15.1s;
-  -webkit-animation-delay: -13.7s;
-          animation-delay: -13.7s;
-  -webkit-transform-origin: -4vw -23vh;
-          transform-origin: -4vw -23vh;
-  -webkit-box-shadow: -10vmin 0 2.66012vmin currentColor;
-          box-shadow: -10vmin 0 2.66012vmin currentColor;
+  color: #66397a;
+  top: 3%;
+  left: 97%;
+  -webkit-animation-duration: 10.8s;
+          animation-duration: 10.8s;
+  -webkit-animation-delay: -10.2s;
+          animation-delay: -10.2s;
+  -webkit-transform-origin: 23vw 15vh;
+          transform-origin: 23vw 15vh;
+  -webkit-box-shadow: 10vmin 0 3.22107vmin currentColor;
+          box-shadow: 10vmin 0 3.22107vmin currentColor;
 }
 
 .background span:nth-child(7) {
   color: #66397a;
-  top: 68%;
-  left: 39%;
-  -webkit-animation-duration: 11.3s;
-          animation-duration: 11.3s;
-  -webkit-animation-delay: -8.3s;
-          animation-delay: -8.3s;
-  -webkit-transform-origin: 5vw -10vh;
-          transform-origin: 5vw -10vh;
-  -webkit-box-shadow: -10vmin 0 1.40387vmin currentColor;
-          box-shadow: -10vmin 0 1.40387vmin currentColor;
+  top: 28%;
+  left: 68%;
+  -webkit-animation-duration: 13.4s;
+          animation-duration: 13.4s;
+  -webkit-animation-delay: -9.5s;
+          animation-delay: -9.5s;
+  -webkit-transform-origin: 0vw -1vh;
+          transform-origin: 0vw -1vh;
+  -webkit-box-shadow: 10vmin 0 1.37649vmin currentColor;
+          box-shadow: 10vmin 0 1.37649vmin currentColor;
 }
 
 .background span:nth-child(8) {
-  color: #9a379a;
-  top: 60%;
-  left: 44%;
-  -webkit-animation-duration: 15.3s;
-          animation-duration: 15.3s;
-  -webkit-animation-delay: -12.7s;
-          animation-delay: -12.7s;
-  -webkit-transform-origin: -22vw -9vh;
-          transform-origin: -22vw -9vh;
-  -webkit-box-shadow: 10vmin 0 2.26421vmin currentColor;
-          box-shadow: 10vmin 0 2.26421vmin currentColor;
+  color: #b385c6;
+  top: 13%;
+  left: 79%;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+  -webkit-animation-delay: -8.2s;
+          animation-delay: -8.2s;
+  -webkit-transform-origin: -3vw -23vh;
+          transform-origin: -3vw -23vh;
+  -webkit-box-shadow: 10vmin 0 1.69858vmin currentColor;
+          box-shadow: 10vmin 0 1.69858vmin currentColor;
 }
 
 .background span:nth-child(9) {
-  color: #66397a;
-  top: 20%;
-  left: 59%;
-  -webkit-animation-duration: 13.8s;
-          animation-duration: 13.8s;
-  -webkit-animation-delay: -0.7s;
-          animation-delay: -0.7s;
-  -webkit-transform-origin: -24vw -12vh;
-          transform-origin: -24vw -12vh;
-  -webkit-box-shadow: 10vmin 0 1.55184vmin currentColor;
-          box-shadow: 10vmin 0 1.55184vmin currentColor;
+  color: #9a379a;
+  top: 5%;
+  left: 66%;
+  -webkit-animation-duration: 13.9s;
+          animation-duration: 13.9s;
+  -webkit-animation-delay: -12.4s;
+          animation-delay: -12.4s;
+  -webkit-transform-origin: 12vw -9vh;
+          transform-origin: 12vw -9vh;
+  -webkit-box-shadow: 10vmin 0 2.39736vmin currentColor;
+          box-shadow: 10vmin 0 2.39736vmin currentColor;
 }
 
 .background span:nth-child(10) {
   color: #66397a;
-  top: 62%;
-  left: 75%;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
-  -webkit-animation-delay: -9.6s;
-          animation-delay: -9.6s;
-  -webkit-transform-origin: 7vw -4vh;
-          transform-origin: 7vw -4vh;
-  -webkit-box-shadow: -10vmin 0 1.28965vmin currentColor;
-          box-shadow: -10vmin 0 1.28965vmin currentColor;
+  top: 30%;
+  left: 5%;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+  -webkit-animation-delay: -8.5s;
+          animation-delay: -8.5s;
+  -webkit-transform-origin: 18vw 24vh;
+          transform-origin: 18vw 24vh;
+  -webkit-box-shadow: -10vmin 0 2.80239vmin currentColor;
+          box-shadow: -10vmin 0 2.80239vmin currentColor;
 }
 
 .background span:nth-child(11) {
   color: #b385c6;
-  top: 2%;
-  left: 29%;
-  -webkit-animation-duration: 11.5s;
-          animation-duration: 11.5s;
-  -webkit-animation-delay: -3.7s;
-          animation-delay: -3.7s;
-  -webkit-transform-origin: 7vw -5vh;
-          transform-origin: 7vw -5vh;
-  -webkit-box-shadow: -10vmin 0 2.5967vmin currentColor;
-          box-shadow: -10vmin 0 2.5967vmin currentColor;
+  top: 27%;
+  left: 45%;
+  -webkit-animation-duration: 12.2s;
+          animation-duration: 12.2s;
+  -webkit-animation-delay: -15.8s;
+          animation-delay: -15.8s;
+  -webkit-transform-origin: 22vw -19vh;
+          transform-origin: 22vw -19vh;
+  -webkit-box-shadow: -10vmin 0 3.55011vmin currentColor;
+          box-shadow: -10vmin 0 3.55011vmin currentColor;
 }
 
 .background span:nth-child(12) {
-  color: #9a379a;
-  top: 9%;
-  left: 61%;
-  -webkit-animation-duration: 10.1s;
-          animation-duration: 10.1s;
-  -webkit-animation-delay: -12.8s;
-          animation-delay: -12.8s;
-  -webkit-transform-origin: 14vw -2vh;
-          transform-origin: 14vw -2vh;
-  -webkit-box-shadow: -10vmin 0 1.69976vmin currentColor;
-          box-shadow: -10vmin 0 1.69976vmin currentColor;
+  color: #b385c6;
+  top: 52%;
+  left: 15%;
+  -webkit-animation-duration: 10.7s;
+          animation-duration: 10.7s;
+  -webkit-animation-delay: -6.5s;
+          animation-delay: -6.5s;
+  -webkit-transform-origin: -22vw -22vh;
+          transform-origin: -22vw -22vh;
+  -webkit-box-shadow: 10vmin 0 1.60317vmin currentColor;
+          box-shadow: 10vmin 0 1.60317vmin currentColor;
 }
 
 .background span:nth-child(13) {
-  color: #9a379a;
-  top: 21%;
-  left: 37%;
-  -webkit-animation-duration: 11.9s;
-          animation-duration: 11.9s;
-  -webkit-animation-delay: -12.5s;
-          animation-delay: -12.5s;
-  -webkit-transform-origin: 0vw 19vh;
-          transform-origin: 0vw 19vh;
-  -webkit-box-shadow: 10vmin 0 1.61258vmin currentColor;
-          box-shadow: 10vmin 0 1.61258vmin currentColor;
+  color: #b385c6;
+  top: 55%;
+  left: 2%;
+  -webkit-animation-duration: 12.5s;
+          animation-duration: 12.5s;
+  -webkit-animation-delay: -4.4s;
+          animation-delay: -4.4s;
+  -webkit-transform-origin: -6vw 13vh;
+          transform-origin: -6vw 13vh;
+  -webkit-box-shadow: -10vmin 0 1.57305vmin currentColor;
+          box-shadow: -10vmin 0 1.57305vmin currentColor;
 }
 
 .background span:nth-child(14) {
-  color: #9a379a;
-  top: 69%;
-  left: 68%;
-  -webkit-animation-duration: 11s;
-          animation-duration: 11s;
-  -webkit-animation-delay: -12s;
-          animation-delay: -12s;
-  -webkit-transform-origin: -15vw 15vh;
-          transform-origin: -15vw 15vh;
-  -webkit-box-shadow: -10vmin 0 3.67632vmin currentColor;
-          box-shadow: -10vmin 0 3.67632vmin currentColor;
+  color: #66397a;
+  top: 44%;
+  left: 39%;
+  -webkit-animation-duration: 10.6s;
+          animation-duration: 10.6s;
+  -webkit-animation-delay: -3.4s;
+          animation-delay: -3.4s;
+  -webkit-transform-origin: -11vw 16vh;
+          transform-origin: -11vw 16vh;
+  -webkit-box-shadow: 10vmin 0 1.28963vmin currentColor;
+          box-shadow: 10vmin 0 1.28963vmin currentColor;
 }
 
 .background span:nth-child(15) {
   color: #9a379a;
-  top: 23%;
-  left: 64%;
-  -webkit-animation-duration: 15.4s;
-          animation-duration: 15.4s;
-  -webkit-animation-delay: -13.9s;
-          animation-delay: -13.9s;
-  -webkit-transform-origin: -20vw -9vh;
-          transform-origin: -20vw -9vh;
-  -webkit-box-shadow: -10vmin 0 2.50149vmin currentColor;
-          box-shadow: -10vmin 0 2.50149vmin currentColor;
+  top: 40%;
+  left: 21%;
+  -webkit-animation-duration: 10.2s;
+          animation-duration: 10.2s;
+  -webkit-animation-delay: -1.7s;
+          animation-delay: -1.7s;
+  -webkit-transform-origin: -15vw -6vh;
+          transform-origin: -15vw -6vh;
+  -webkit-box-shadow: -10vmin 0 2.63745vmin currentColor;
+          box-shadow: -10vmin 0 2.63745vmin currentColor;
 }
 
 .background span:nth-child(16) {
   color: #9a379a;
-  top: 2%;
-  left: 70%;
-  -webkit-animation-duration: 10.1s;
-          animation-duration: 10.1s;
-  -webkit-animation-delay: -2.5s;
-          animation-delay: -2.5s;
-  -webkit-transform-origin: -14vw -8vh;
-          transform-origin: -14vw -8vh;
-  -webkit-box-shadow: -10vmin 0 3.26125vmin currentColor;
-          box-shadow: -10vmin 0 3.26125vmin currentColor;
+  top: 7%;
+  left: 36%;
+  -webkit-animation-duration: 15.3s;
+          animation-duration: 15.3s;
+  -webkit-animation-delay: -6.5s;
+          animation-delay: -6.5s;
+  -webkit-transform-origin: -17vw -8vh;
+          transform-origin: -17vw -8vh;
+  -webkit-box-shadow: -10vmin 0 1.61386vmin currentColor;
+          box-shadow: -10vmin 0 1.61386vmin currentColor;
 }
 
 .background span:nth-child(17) {
   color: #b385c6;
-  top: 6%;
-  left: 59%;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
-  -webkit-animation-delay: -6.3s;
-          animation-delay: -6.3s;
-  -webkit-transform-origin: -1vw 6vh;
-          transform-origin: -1vw 6vh;
-  -webkit-box-shadow: -10vmin 0 2.13157vmin currentColor;
-          box-shadow: -10vmin 0 2.13157vmin currentColor;
+  top: 38%;
+  left: 29%;
+  -webkit-animation-duration: 14.9s;
+          animation-duration: 14.9s;
+  -webkit-animation-delay: -9.3s;
+          animation-delay: -9.3s;
+  -webkit-transform-origin: 13vw -17vh;
+          transform-origin: 13vw -17vh;
+  -webkit-box-shadow: 10vmin 0 3.12429vmin currentColor;
+          box-shadow: 10vmin 0 3.12429vmin currentColor;
 }
 
 .background span:nth-child(18) {
   color: #9a379a;
-  top: 41%;
-  left: 69%;
-  -webkit-animation-duration: 12.7s;
-          animation-duration: 12.7s;
-  -webkit-animation-delay: -12.6s;
-          animation-delay: -12.6s;
-  -webkit-transform-origin: -12vw 0vh;
-          transform-origin: -12vw 0vh;
-  -webkit-box-shadow: -10vmin 0 3.16092vmin currentColor;
-          box-shadow: -10vmin 0 3.16092vmin currentColor;
+  top: 23%;
+  left: 42%;
+  -webkit-animation-duration: 11.5s;
+          animation-duration: 11.5s;
+  -webkit-animation-delay: -1.9s;
+          animation-delay: -1.9s;
+  -webkit-transform-origin: -13vw -7vh;
+          transform-origin: -13vw -7vh;
+  -webkit-box-shadow: -10vmin 0 1.81045vmin currentColor;
+          box-shadow: -10vmin 0 1.81045vmin currentColor;
 }
 
 .background span:nth-child(19) {
-  color: #9a379a;
-  top: 69%;
-  left: 84%;
-  -webkit-animation-duration: 13.5s;
-          animation-duration: 13.5s;
-  -webkit-animation-delay: -14.2s;
-          animation-delay: -14.2s;
-  -webkit-transform-origin: 24vw -4vh;
-          transform-origin: 24vw -4vh;
-  -webkit-box-shadow: 10vmin 0 3.12553vmin currentColor;
-          box-shadow: 10vmin 0 3.12553vmin currentColor;
+  color: #66397a;
+  top: 30%;
+  left: 18%;
+  -webkit-animation-duration: 12.8s;
+          animation-duration: 12.8s;
+  -webkit-animation-delay: -9.4s;
+          animation-delay: -9.4s;
+  -webkit-transform-origin: 24vw 7vh;
+          transform-origin: 24vw 7vh;
+  -webkit-box-shadow: -10vmin 0 1.70656vmin currentColor;
+          box-shadow: -10vmin 0 1.70656vmin currentColor;
 }
 
 .background span:nth-child(20) {
-  color: #66397a;
-  top: 52%;
-  left: 39%;
-  -webkit-animation-duration: 11.9s;
-          animation-duration: 11.9s;
-  -webkit-animation-delay: -5.2s;
-          animation-delay: -5.2s;
-  -webkit-transform-origin: 14vw 23vh;
-          transform-origin: 14vw 23vh;
-  -webkit-box-shadow: -10vmin 0 2.95124vmin currentColor;
-          box-shadow: -10vmin 0 2.95124vmin currentColor;
+  color: #b385c6;
+  top: 6%;
+  left: 42%;
+  -webkit-animation-duration: 13.4s;
+          animation-duration: 13.4s;
+  -webkit-animation-delay: -8.2s;
+          animation-delay: -8.2s;
+  -webkit-transform-origin: 13vw -21vh;
+          transform-origin: 13vw -21vh;
+  -webkit-box-shadow: 10vmin 0 2.44148vmin currentColor;
+          box-shadow: 10vmin 0 2.44148vmin currentColor;
 }
 
 @-webkit-keyframes move {
@@ -1975,7 +1975,7 @@ header h2 {
   .letsTalk .options {
     width: 60%;
     margin-left: 30%;
-    max-width: 100px;
+    max-width: 250px;
   }
 }
 
