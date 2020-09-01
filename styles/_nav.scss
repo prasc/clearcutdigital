@@ -54,11 +54,10 @@
 
 // ----------------- Navbar aanimate on scroll
 
-
 .scrolled {
   height: 100px;
   position: fixed;
-    width: 100%;
+  width: 100%;
   transition: 0.35s all ease;
 }
 
@@ -211,6 +210,9 @@
 @media only screen and (max-width: 615px) {
   #menuToggle {
     right: 75px;
+  }
+  .top-nav {
+    height: 110px;
   }
 }
 
