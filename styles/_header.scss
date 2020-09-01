@@ -257,6 +257,9 @@ $amount: 20;
       line-height: 2rem;
     }
   }
+  .headerText {
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -273,6 +276,5 @@ $amount: 20;
       margin: 0 auto $consistent-gap auto;
       text-align: center;
     }
-
   }
 }
