@@ -68,7 +68,12 @@
   }
 
   .process {
+    padding: $consistent-gap 0;
+    .wrapperslim {
+      width: 100% !important;
+    }
     h2 {
+      padding: 0 $consistent-gap;
       font-size: 1.5rem;
     }
     h3 {
@@ -84,7 +89,7 @@
         width: 70%;
         p {
           font-size: 1.5rem;
-          margin: $consistent-gap 0;
+          margin-bottom: $consistent-gap;
         }
       }
     }

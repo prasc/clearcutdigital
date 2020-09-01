@@ -196,6 +196,19 @@
       font-size: 1.5rem;
     }
   }
+  .modal-content {
+    width: 65%;
+  }
+  .modal-content {
+    h3 {
+      font-size: 2rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding-bottom: 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 440px) {
