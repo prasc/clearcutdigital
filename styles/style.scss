@@ -40,12 +40,16 @@ img {
   width: 100%;
 }
 
-@media only screen and (max-width: 450) {
+@media only screen and (max-width: 500) {
   body {
     overflow-x: hidden !important;
   }
   html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    position: relative;
   }
 }
 
