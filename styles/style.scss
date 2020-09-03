@@ -40,7 +40,11 @@ img {
   width: 100%;
 }
 
-//----------------------------- Contact
+@media only screen and (max-width: 450) {
+  body {
+    overflow-x: hidden !important;
+  }
+}
 
 //----------------------------- Imports
 
