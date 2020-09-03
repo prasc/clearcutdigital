@@ -112,3 +112,13 @@ window.onscroll = function () {
 var lazyLoadInstance = new LazyLoad({
   // Your custom settings go here
 });
+
+// Google gtag
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "UA-176583079-1");
