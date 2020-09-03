@@ -9,7 +9,6 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 
 AOS.init();
 
-
 // --------------> FAQ
 
 const accordionItemHeaders = document.querySelectorAll(
@@ -107,3 +106,9 @@ window.onscroll = function () {
     nav.classList.remove("scrolled");
   }
 };
+
+// Lazy load images
+
+var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+});
